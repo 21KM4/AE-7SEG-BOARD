@@ -74,7 +74,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "./Gerber")
     )
   )
 
@@ -112,7 +112,7 @@
     (property "Sheetfile" "ファイル: AE-7SEG-BOARD.kicad_sch")
     (property "Sheetname" "")
     (path "/3165eb52-11a0-4818-9f3c-c2ba880cefbc")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "U2" (at 0.03 -2.48 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e3e9a8f-7597-4401-b132-f1e59b3477c2)
@@ -552,7 +552,7 @@
     (property "Sheetfile" "ファイル: AE-7SEG-BOARD.kicad_sch")
     (property "Sheetname" "")
     (path "/d79c7fae-a59e-4194-bdc1-5178c2f790b0")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "CH2" (at 0 2.33 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 49ca207c-fbdb-42b3-9428-fa1933aa8908)
@@ -728,7 +728,7 @@
     (property "Sheetfile" "ファイル: AE-7SEG-BOARD.kicad_sch")
     (property "Sheetname" "")
     (path "/1cf3af5d-a224-4beb-9217-889dd6a2c447")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "CH1" (at 0 2.33 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 321739d8-9034-4072-83cd-cfe264b6eeed)
