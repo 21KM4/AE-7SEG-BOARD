@@ -385,6 +385,7 @@
     (at 145.6533 107.975 90)
     (descr "SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
+    (property "JLCPCB Rotation Offset" "-90")
     (property "LCSC" "C5947")
     (property "Sheetfile" "AE-7SEG-BOARD.kicad_sch")
     (property "Sheetname" "")
